@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ul{
+    list-style: none;
+}
+.header, .footer{
+    display: flex;
+    color: gray;
+    margin: 0;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.link-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+    padding: 10px o;
+}
+.header{
+    padding: 18px 18px;
+}
+.card, .card2 {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  border: 2px solid;
+  border-color: gray;
+  border-radius: 10px;
+}
