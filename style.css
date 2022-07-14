@@ -4,6 +4,7 @@ body{
     flex: 1;
     flex-direction: column;
     min-height: 100vh;
+    background-color: wheat;
 }
 ul{
     list-style: none;
@@ -16,7 +17,7 @@ ul{
 }
 a{
     text-decoration: none;
-    color: gray;
+    color: black;
 }
 .link-container{
     display: flex;
@@ -29,6 +30,7 @@ a{
     justify-content: center;
     align-items: center;
     padding: 10px o;
+    height: 50px;
 }
 .header{
     padding: 18px 18px;
@@ -38,6 +40,11 @@ a{
   margin: 16px;
   width: 300px;
   border: 2px solid;
-  border-color: gray;
+  border-color:white;
   border-radius: 10px;
+  background-color: gray;
+}
+.card2{
+    background-color: white;
+    border-color: gray;
 }
